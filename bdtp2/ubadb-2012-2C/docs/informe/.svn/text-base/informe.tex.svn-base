@@ -1,0 +1,53 @@
+\documentclass[a4paper,spanish]{article}
+
+\usepackage[spanish,activeacute]{babel}
+\usepackage{enumitem}
+\usepackage{ulem}
+\usepackage{fancyhdr}
+\usepackage{caratula}
+\usepackage{graphicx}
+\usepackage{bases}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{alltt}
+\usepackage{multirow} 
+
+
+
+\oddsidemargin 0in
+\textwidth 6.2in
+\topmargin 0in
+\addtolength{\topmargin}{-.5in}
+\textheight 10in
+\parskip=1ex
+\pagestyle{fancy}
+
+\lhead{Bases de Datos - Trabajo pr\'actico}
+
+\cfoot{$\thepage$ de \pageref{fin}}
+
+\materia{Bases de Datos}
+\submateria{Segundo Cuatrimestre de 2012}
+\titulo{Trabajo Pr\'{a}ctico}
+\subtitulo{Segunda Parte - An\'alisis del Buffer Manager}
+\integrante{Alex Aronson}{443/08}{alexaronson@gmail.com}
+\integrante{Nicolas Ravasi}{53/08}{nravasi@gmail.com}
+\integrante{Leandro Nahabedian}{250/08}{leanahabedian@gmail.com}
+\grupo{Grupo 6}
+
+\begin{document}
+
+\thispagestyle{empty}
+\maketitle
+\tableofcontents
+\newpage
+\input{intro}
+%\input{inv}
+%\newpage
+%\input{impl}
+\newpage
+\input{analisis}
+\input{bib}
+
+\label{fin}
+\end{document}

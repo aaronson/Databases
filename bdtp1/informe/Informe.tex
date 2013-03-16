@@ -1,0 +1,89 @@
+\documentclass[a4paper,10pt, spanish]{article}
+
+%%%%%%%%%% COMIENZO DEL PREAMBULO %%%%%%%%%%
+
+%%%%%% DATOS INICIALES
+%\author{...., Federico A. Ocampo}
+%\title{Trabajo Pr'actico 1 Bases de Datos}
+
+%%%% PAQUETES
+
+%\usepackage{infostyle}  %%Se reemplaza por los siguientes.
+
+\usepackage[top=3cm, bottom=3cm, left=3cm, right=3cm]{geometry}  % márgenes
+\usepackage[utf8]{inputenc}                 % permite que los acentos del estilo áéíóú salgan joya
+\usepackage[spanish, activeacute]{babel}    % idioma español, acentos fáciles y deletreo de palabras
+\selectlanguage{spanish}
+\usepackage{indentfirst}                    % permite indentar un parrafo a mano
+\usepackage{wrapfig}                        % permite wrappear una figura
+\usepackage{graphicx}                       % permite insertar gráficos
+\usepackage{color}                          % permite el uso de colores en el documento
+\usepackage{listings}                       % formatea código fuente
+\usepackage{ulem}                           % Linea de puntos piola
+% \usepackage[section]{algorithm}
+% \usepackage{algpseudocode}                  % formatea pseudocod
+\usepackage{caratula}                       % incluye caratula estándar
+\usepackage[font=footnotesize,labelfont=normal]{caption} %modifica apariencia de los captions
+
+%Extras de AMS para matematicas
+% \usepackage{amsthm}     %ambiente para Teoremas
+% \usepackage{amsmath}    %ambientes y comandos (ej: align, eqref)
+% \usepackage{amsfonts}   %fuentes
+% \usepackage{amssymb}    %Simbolos matematicos
+
+% \ifpdf
+% \usepackage[pdfcreator={Kile(r) bajo GNU/Linux},
+            % pdfauthor={Grupo: 16},
+            % pdftitle={TP MetNum},
+            % pdfsubject={Trabajo Practico de Metodos Numericos},
+            % pdfkeywords={Biseccion,Newton,Aritmetica Finita},
+            % pdfstartview=FitH,            % Fits the width of the page to the window
+            % bookmarksnumbered,            % los bookmarks numerados se ven mejor...
+            % colorlinks,                   % links con bellos colores
+            % linkcolor=blue]               % permite cambiar el color de los links
+            % {hyperref}                    % Permite jugar con el PDF
+% \fi
+
+%%%%% FORMATO
+\linespread{1.3}                          % interlineado equivalente al 1.5 líneas de Word...
+\parskip=1.5ex                            % Un poco mas de espacio entre parrafos
+
+\pagestyle{myheadings}              %encabezado personalizable con \markboth{}{}
+\markboth{}{Bases de Datos - TP1}
+\headsep = 30pt                     % separación entre encabezado y comienzo del párrafo
+
+%define el lenguaje de prog a usar
+\lstset{language=SQL}
+\lstset{frame=single}
+
+%%%%%% MACROS & COMANDOS
+% macro 'todo' para To-Do's
+\def\TODO#1{\textcolor{red}{#1}}
+\newcommand{\real}{\hbox{\bf R}}
+\newcommand{\entero}{\hbox{\bf Z}}
+
+%inicializa el ambiente Teorema
+% \newtheorem{theorem}{Teorema}[section]
+% \newtheorem{propo}{Proposici\'on}[section]
+% \newtheorem{definition}{Definici\'on}[section]
+
+% Macro 'borde' para un texto con borde
+\newsavebox{\fmbox}
+\newenvironment{borde}[1]
+{\begin{lrbox}{\fmbox}\begin{minipage}{#1}}
+{\end{minipage}\end{lrbox}\fbox{\usebox{\fmbox}}\\[10pt]}
+
+%%%%%%%%%% FIN DEL PREAMBULO %%%%%%%%%%
+
+\begin{document}
+
+\include{Caratula}
+\include{Introduccion}
+\include{Diagrama}
+\include{ModeloRelacional}
+\include{Funcionalidades}
+\include{Referencias}
+
+% \appendix
+% \include{ApendiceA} %Enunciado 
+\end{document}

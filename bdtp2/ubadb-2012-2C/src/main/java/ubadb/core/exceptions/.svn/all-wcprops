@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/main/java/ubadb/core/exceptions
+END
+BufferPoolException.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/main/java/ubadb/core/exceptions/BufferPoolException.java
+END
+BufferFrameException.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/main/java/ubadb/core/exceptions/BufferFrameException.java
+END
+BufferManagerException.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/main/java/ubadb/core/exceptions/BufferManagerException.java
+END
+DiskManagerException.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/main/java/ubadb/core/exceptions/DiskManagerException.java
+END
+PageReplacementStrategyException.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/main/java/ubadb/core/exceptions/PageReplacementStrategyException.java
+END

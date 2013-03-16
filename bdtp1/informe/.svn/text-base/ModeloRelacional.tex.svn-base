@@ -1,0 +1,63 @@
+\section{Modelo Relacional}
+\label{sec:mer}
+
+\subsection{Esquemas de Relaciones}
+
+En las siguientes secciones se formalizan las entidades y relaciones propuestas en el
+\textbf{Diagrama Entidad-Relaci\'on} mediante el esquema de 
+\textbf{Modelo Relacional}, definiendo claves candidatas, primarias y for\'aneas para cada una de ellas.
+Por otro lado definiremos las restricciones que tiene nuestro esquema.
+
+Seleccion(\underline{IdSeleccion}, Grupo, Hospedaje, Fecha Arribo, \dotuline{IdPais}, \dotuline{IdEstadio})\\
+PK = CK = {IdSeleccion}\\
+FK = {IdPais, IdEstadio}\\
+
+Pais(\underline{IdPais}, Nombre)\\
+PK = {IdPais}\\
+CK = {IdPais, Nombre}\\
+
+Integrante(\underline{NroPasaporte}, Nombre, Edad, EsUn, \dotuline{IdSeleccion})\\
+PK  = CK = {NroPasaporte}\\
+FK = {IdSeleccion}\\
+
+Cuerpo Tecnico (\underline{\dotuline{NroPasaporte}}, Funcion)\\
+PK = CK = FK = {NroPasaporte}\\
+
+Jugador(\underline{\dotuline{NroPasaporte}}, Equipo, \dotuline{IdPosicion} )\\
+PK = CK = {NroPasaporte}\\
+FK = {NroPasaporte, IdPosicion}\\
+
+Participacion(\underline{IdParticipacion}, EsTitular, \dotuline{NroPasaporte, NroDePartido})\\
+PK=CK = {IdParticipacion}\\
+FK= {NroPasaporte, NroDePartido}\\
+
+Sancion(\underline{IdSancion}, Descripcion, \dotuline{IdParticipacion} ,\dotuline{IdArbitro})\\
+PK=CK = {IdSancion}\\
+FK= {IdParticipacion, IdArbitro}\\
+
+Estadistica(\underline{IdEstadistica}, Minutos, Asistencias, Rebotes, Puntos, {\dotuline{IdParticipacion})\\
+PK=CK = {IdEstadistica}\\
+FK={IdParticipacion}\\
+
+Arbitro(\underline{IdArbitro}, Nombre, \dotuline{IdPais})\\
+PK=CK={IdArbitro}\\
+FK={IdPais}\\
+
+Partido(\underline{NroPartido}, 1CuartoLocal, 2CuartoLocal, 3CuartoLocal, 4CuartoLocal, 1CuartoVisitante, 2CuartoVisitante, 3CuartoVisitante, 4CuartoVisitante, Fecha, \dotuline{IdFase}, \dotuline{IdArbitro}, \dotuline{IdSeleccionLocal}, \dotuline{IdSeleccionVisitante, IdEstadio})\\
+PK=CK= {NroPartido}\\
+FK={IdFase, IdArbitro, IdSeleccionLocal, IdSeleccionVisitante, IdEstadio}\\
+
+Fase(\underline{IdFase}, Descripcion)\\
+PK=CK={IdFase}\\
+
+Estadio(\underline{IdEstadio}, Descripcion)\\
+PK=CK={IdEstadio}\\
+
+Posicion(\underline{IdPosicion}, Descripcion)\\
+PK=CK={IdPosicion}\\
+
+DirigidoPor(\underline{\dotuline{nroPartido, idArbitro}})\\
+PK = CK = {(nroPartido, idArbitro)}\\
+FK = {nroPartido, idArbitro}\\
+
+

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/nravasi-bdtp2/!svn/ver/11/ubadb-2012-2C/src/main/java/ubadb/external/bufferManagement/etc
+END
+CatalogManagerStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/main/java/ubadb/external/bufferManagement/etc/CatalogManagerStub.java
+END
+PageReferenceTraceSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/main/java/ubadb/external/bufferManagement/etc/PageReferenceTraceSerializer.java
+END
+PageReferenceTrace.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/main/java/ubadb/external/bufferManagement/etc/PageReferenceTrace.java
+END
+PageReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/main/java/ubadb/external/bufferManagement/etc/PageReference.java
+END
+BufferManagementMetrics.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/nravasi-bdtp2/!svn/ver/11/ubadb-2012-2C/src/main/java/ubadb/external/bufferManagement/etc/BufferManagementMetrics.java
+END
+FaultCounterDiskManagerSpy.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/main/java/ubadb/external/bufferManagement/etc/FaultCounterDiskManagerSpy.java
+END
+PageReferenceType.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/main/java/ubadb/external/bufferManagement/etc/PageReferenceType.java
+END

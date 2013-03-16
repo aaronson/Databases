@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/nravasi-bdtp2/!svn/ver/3/ubadb-2012-2C/src/main/java/ubadb/core/components/bufferManager/bufferPool/replacementStrategies/ru/lru
+END
+LRUReplacementStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/nravasi-bdtp2/!svn/ver/3/ubadb-2012-2C/src/main/java/ubadb/core/components/bufferManager/bufferPool/replacementStrategies/ru/lru/LRUReplacementStrategy.java
+END

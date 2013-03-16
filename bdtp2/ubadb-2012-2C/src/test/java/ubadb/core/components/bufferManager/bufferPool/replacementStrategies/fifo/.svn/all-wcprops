@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/test/java/ubadb/core/components/bufferManager/bufferPool/replacementStrategies/fifo
+END
+FIFOReplacementStrategyTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/test/java/ubadb/core/components/bufferManager/bufferPool/replacementStrategies/fifo/FIFOReplacementStrategyTest.java
+END
+FIFOBufferFrameTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/test/java/ubadb/core/components/bufferManager/bufferPool/replacementStrategies/fifo/FIFOBufferFrameTest.java
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/focampo-bdtp1/!svn/ver/25/sql
+END
+Estadisticas_Jugadores.sql
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/focampo-bdtp1/!svn/ver/16/sql/Estadisticas_Jugadores.sql
+END
+trigger_valida_arbitro.sql
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/focampo-bdtp1/!svn/ver/13/sql/trigger_valida_arbitro.sql
+END
+inserts.sql
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/focampo-bdtp1/!svn/ver/15/sql/inserts.sql
+END
+Procedure 1.sql
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/focampo-bdtp1/!svn/ver/18/sql/Procedure%201.sql
+END
+arbitrosHabilitados.sql
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/focampo-bdtp1/!svn/ver/25/sql/arbitrosHabilitados.sql
+END
+consultas.sql
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/focampo-bdtp1/!svn/ver/14/sql/consultas.sql
+END
+create tables.sql
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/focampo-bdtp1/!svn/ver/14/sql/create%20tables.sql
+END
+trigger_valida_paises_diferentes.sql
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/focampo-bdtp1/!svn/ver/18/sql/trigger_valida_paises_diferentes.sql
+END
+trigger_valida_participaciones.sql
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/focampo-bdtp1/!svn/ver/18/sql/trigger_valida_participaciones.sql
+END

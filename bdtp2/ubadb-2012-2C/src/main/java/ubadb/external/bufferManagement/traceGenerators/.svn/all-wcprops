@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/nravasi-bdtp2/!svn/ver/9/ubadb-2012-2C/src/main/java/ubadb/external/bufferManagement/traceGenerators
+END
+PageReferenceTraceGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/main/java/ubadb/external/bufferManagement/traceGenerators/PageReferenceTraceGenerator.java
+END
+IndexScanTraceGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/main/java/ubadb/external/bufferManagement/traceGenerators/IndexScanTraceGenerator.java
+END
+MultipleAccessTraceGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/nravasi-bdtp2/!svn/ver/8/ubadb-2012-2C/src/main/java/ubadb/external/bufferManagement/traceGenerators/MultipleAccessTraceGenerator.java
+END
+MultipleAccessNoFileScanTraceGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/nravasi-bdtp2/!svn/ver/9/ubadb-2012-2C/src/main/java/ubadb/external/bufferManagement/traceGenerators/MultipleAccessNoFileScanTraceGenerator.java
+END
+FileScanTraceGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/main/java/ubadb/external/bufferManagement/traceGenerators/FileScanTraceGenerator.java
+END
+BNLJTraceGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/main/java/ubadb/external/bufferManagement/traceGenerators/BNLJTraceGenerator.java
+END
+MixedTraceGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/main/java/ubadb/external/bufferManagement/traceGenerators/MixedTraceGenerator.java
+END

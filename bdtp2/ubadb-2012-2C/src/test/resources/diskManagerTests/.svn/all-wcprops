@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/test/resources/diskManagerTests
+END
+fileWithLength4.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/test/resources/diskManagerTests/fileWithLength4.txt
+END
+fileToWrite.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/test/resources/diskManagerTests/fileToWrite.txt
+END
+emptyFile.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/test/resources/diskManagerTests/emptyFile.txt
+END
+fileToRead.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/nravasi-bdtp2/!svn/ver/1/ubadb-2012-2C/src/test/resources/diskManagerTests/fileToRead.txt
+END
